@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+.env
+*.log
+
+# SQLite dev database
+server/prisma/dev.db
+server/prisma/dev.db-journal
+
+# Prisma generated client cache (regenerated via `npm run prisma:generate`)
+server/node_modules/.prisma/
+
+.DS_Store
